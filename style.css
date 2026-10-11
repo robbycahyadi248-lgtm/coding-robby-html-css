@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f7f9ff;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background-color: #2b4acb;
+  color: white;
+}
+
+header h2 {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+#beranda {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2b4acb;
+}
+
+.kartu {
+  background-color: white;
+  border: 1px solid #dde3f5;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+}
