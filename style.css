@@ -1,7 +1,7 @@
 :root {
   --bg: #0d0d0f;          /* latar halaman */
-  --bg-header: #16161a;   /* latar header */
-  --bg-kartu: #1a1a20;    /* latar kartu */
+  --bg-header: #fe7700;   /* latar header */
+  --bg-kartu: #201c1a;    /* latar kartu */
   --garis: #2a2a33;       /* garis/border */
   --teks: #e6e6ea;        /* teks utama */
   --teks-redup: #9a9aa5;  /* teks sekunder */
