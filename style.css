@@ -1,8 +1,18 @@
+:root {
+  --bg: #0d0d0f;          /* latar halaman */
+  --bg-header: #16161a;   /* latar header */
+  --bg-kartu: #1a1a20;    /* latar kartu */
+  --garis: #2a2a33;       /* garis/border */
+  --teks: #e6e6ea;        /* teks utama */
+  --teks-redup: #9a9aa5;  /* teks sekunder */
+  --aksen: #4f8cff;       /* warna aksen (judul, link) */
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f7f9ff;
-  color: #222;
+  background-color: var(--bg);
+  color: var(--teks);
   line-height: 1.6;
 }
 
@@ -11,23 +21,24 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  background-color: #2b4acb;
-  color: white;
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--garis);
+  color: var(--teks);
 }
 
 header h2 {
   margin: 0;
-  color: white;
+  color: var(--teks);
 }
 
 nav a {
-  color: white;
+  color: var(--teks-redup);
   margin-left: 20px;
   text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  color: var(--aksen);
 }
 
 section {
@@ -41,12 +52,16 @@ section {
 }
 
 h1, h2 {
-  color: #2b4acb;
+  color: var(--aksen);
+}
+
+a {
+  color: var(--aksen);
 }
 
 .kartu {
-  background-color: white;
-  border: 1px solid #dde3f5;
+  background-color: var(--bg-kartu);
+  border: 1px solid var(--garis);
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
@@ -55,12 +70,12 @@ h1, h2 {
 footer {
   text-align: center;
   padding: 20px;
-  color: #777;
+  color: var(--teks-redup);
 }
 
 /* Tampilan untuk layar kecil (HP) */
 @media (max-width: 600px) {
-  header  {
+  header {
     flex-direction: column;
     gap: 10px;
     padding: 16px;
