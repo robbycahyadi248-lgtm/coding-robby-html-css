@@ -1,7 +1,7 @@
 :root {
   --bg: #0d0d0f;          /* latar halaman */
-  --bg-header: #fe7700;   /* latar header */
-  --bg-kartu: #201c1a;    /* latar kartu */
+  --bg-header: #1a1816;   /* latar header */
+  --bg-kartu: #1a1a20;    /* latar kartu */
   --garis: #2a2a33;       /* garis/border */
   --teks: #e6e6ea;        /* teks utama */
   --teks-redup: #9a9aa5;  /* teks sekunder */
@@ -71,6 +71,32 @@ footer {
   text-align: center;
   padding: 20px;
   color: var(--teks-redup);
+}
+
+.periode {
+  color: var(--teks-redup);
+  font-size: 0.9rem;
+  margin-top: -8px;
+}
+
+.kartu h3 {
+  margin-top: 0;
+  color: var(--teks);
+}
+
+.kartu ul {
+  padding-left: 20px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--bg);
+  border: 1px solid var(--garis);
+  color: var(--aksen);
+  border-radius: 999px;
+  padding: 2px 12px;
+  font-size: 0.8rem;
+  margin: 4px 4px 0 0;
 }
 
 /* Tampilan untuk layar kecil (HP) */
